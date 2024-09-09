@@ -1,0 +1,23 @@
+CREATE DATABASE glucosa_pacientes; 
+USE glucosa_pacientes;
+
+CREATE TABLE Pacientes (
+Id_paciente
+Nombre VARCHAR(100)
+Dni VARCHAR(8)
+Telefono VARCHAR (10) 
+);
+
+INSERT INTO Pacientes (Nombre, Dni, Telefono)
+VALUES ("Lopez Daniel", "Bogota 538", "3513004605"),
+       ("De Martini Thomas", "Calle publica 234", "3513784165"),
+       ("Heredia Sofia", "Pino 765", "3513340313"),
+       ("Perez Magali", "Arica 280", 3512177635")
+       ("Garcia Natalia", "Reconquista 593", "3516262372"),
+       ("Aguero Juan", "Av.colon 951", "3547890435"),
+       ("Bisso Esteban", "Sarmiento 98", "3514378901"),
+       ("Garcia Joaquin", "Chile 574", "3417682360"),
+       ("Martinez Javier", "Paraguay 765", "3549874190"), 
+       ("Reale Juana", "Santa Rosa 590", "3514568630");
+SELECT* FROM Pacientes; 
+       
