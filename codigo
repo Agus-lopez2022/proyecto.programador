@@ -1,0 +1,7 @@
+def calcularglucosa (alta, baja):
+ if glucosa <=125
+print ("prediabetes")
+ if glucosa >=125 
+print ("glucosa alta")
+  else:
+print("diabetes normal")
